@@ -1,0 +1,97 @@
+{
+  "type": "HP8481H",
+  "serial_number": "2702A64712",
+  "reference_calibration_factor": 99.0,
+  "table": [
+     {
+        "frequency": 0.01e9,
+        "calibration_factor": 98.7,
+        "rho": 0.028
+     },
+     {
+        "frequency": 2.0e9,
+        "calibration_factor": 96.7,
+        "rho": 0.031
+     },
+     {
+        "frequency": 3.0e9,
+        "calibration_factor": 96.2,
+        "rho": 0.033
+      },
+      {
+        "frequency": 4.0e9,
+        "calibration_factor": 96.0,
+        "rho": 0.029
+      },
+      {
+        "frequency": 5.0e9,
+        "calibration_factor": 95.7,
+        "rho": 0.021
+      },
+      {
+        "frequency": 6.0e9,
+        "calibration_factor": 95.6,
+        "rho": 0.022
+      },
+      {
+        "frequency": 7.0e9,
+        "calibration_factor": 95.3,
+        "rho": 0.028
+      },
+      {
+        "frequency": 8.0e9,
+        "calibration_factor": 95.3,
+        "rho": 0.027
+      },
+      {
+        "frequency": 9.0e9,
+        "calibration_factor": 95.2,
+        "rho": 0.022
+      },
+      {
+        "frequency": 10.0e9,
+        "calibration_factor": 94.2,
+        "rho": 0.016
+      },
+      {
+        "frequency": 11.0e9,
+        "calibration_factor": 93.4,
+        "rho": 0.017
+      },
+      {
+        "frequency": 12.0e9,
+        "calibration_factor": 92.8,
+        "rho": 0.012
+      },
+      {
+        "frequency": 13.0e9,
+        "calibration_factor": 91.7,
+        "rho": 0.021
+      },
+      {
+        "frequency": 14.0e9,
+        "calibration_factor": 89.7,
+        "rho": 0.034
+      },
+      {
+        "frequency": 15.0e9,
+        "calibration_factor": 88.8,
+        "rho": 0.035
+      },
+      {
+        "frequency": 16.0e9,
+        "calibration_factor": 88.5,
+        "rho": 0.026
+      },
+      {
+        "frequency": 17.0e9,
+        "calibration_factor": 87.7,
+        "rho": 0.032
+      },
+      {
+        "frequency": 18.0e9,
+        "calibration_factor": 86.3,
+        "rho": 0.051
+      }
+    ]
+}

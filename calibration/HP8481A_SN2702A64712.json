@@ -1,0 +1,97 @@
+{
+  "type": "HP8481A",
+  "serial_number": "2702A64712",
+  "reference_calibration_factor": 100.0,
+  "table": [
+    {
+      "frequency": 0.1e9,
+      "calibration_factor": 99.9,
+      "rho": 0.007
+    },
+    {
+      "frequency": 2.0e9,
+      "calibration_factor": 98.0,
+      "rho": 0.010
+    },
+    {
+      "frequency": 3.0e9,
+      "calibration_factor": 97.6,
+      "rho": 0.013
+    },
+    {
+      "frequency": 4.0e9,
+      "calibration_factor": 97.2,
+      "rho": 0.018
+    },
+    {
+      "frequency": 5.0e9,
+      "calibration_factor": 96.7,
+      "rho": 0.013
+    },
+    {
+      "frequency": 6.0e9,
+      "calibration_factor": 96.3,
+      "rho": 0.004
+    },
+    {
+      "frequency": 7.0e9,
+      "calibration_factor": 95.7,
+      "rho": 0.015
+    },
+    {
+      "frequency": 8.0e9,
+      "calibration_factor": 95.5,
+      "rho": 0.027
+    },
+    {
+      "frequency": 9.0e9,
+      "calibration_factor": 94.2,
+      "rho": 0.035
+    },
+    {
+      "frequency": 10.0e9,
+      "calibration_factor": 94.8,
+      "rho": 0.034
+    },
+    {
+      "frequency": 11.0e9,
+      "calibration_factor": 93.1,
+      "rho": 0.023
+    },
+    {
+      "frequency": 12.0e9,
+      "calibration_factor": 93.7,
+      "rho": 0.003
+    },
+    {
+      "frequency": 13.0e9,
+      "calibration_factor": 92.7,
+      "rho": 0.015
+    },
+    {
+      "frequency": 14.0e9,
+      "calibration_factor": 92.0,
+      "rho": 0.028
+    },
+    {
+      "frequency": 15.0e9,
+      "calibration_factor": 92.4,
+      "rho": 0.037
+    },
+    {
+      "frequency": 16.0e9,
+      "calibration_factor": 91.5,
+      "rho": 0.020
+    },
+    {
+      "frequency": 17.0e9,
+      "calibration_factor": 91.7,
+      "rho": 0.020
+    },
+    {
+      "frequency": 18.0e9,
+      "calibration_factor": 90.2,
+      "rho": 0.060
+    }
+  ]
+}
