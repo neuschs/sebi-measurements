@@ -21,8 +21,7 @@ class WritePowerSensorCalibrationTable(Procedure):
     instrument = object
 
     def startup(self):
-        pass
-        # self.instrument = HP437B(self.resource)
+        self.instrument = HP437B(self.resource)
 
     def execute(self):
         json_data = None
@@ -37,20 +36,26 @@ class WritePowerSensorCalibrationTable(Procedure):
         log.info(f"Parsed {len(calibration_factor_list)} calibration paris for SN:"
                  f"{json_data['serial_number']}")
 
+        log.info("Clear Sensor Table Data")
+        self.instrument.sensor_data_clear(self.table_id)
+
         log.info(f"Write sensor data to table {self.table_id}")
-        # self.instrument.sensor_data_ref_cal_factor(self.table_id, ref_cal_factor)
-        # self.instrument.sensor_data_write_cal_factor_table()
+        self.instrument.sensor_data_ref_cal_factor(self.table_id, ref_cal_factor)
+        self.instrument.sensor_data_write_cal_factor_table(self.table_id, frequency_list, calibration_factor_list)
         log.info("Verifiy sensor data")
-        if True:
+        readout_freq, readout_calfac = self.instrument.sensor_data_read_cal_factor_table(self.table_id)
+
+        print(readout_calfac)
+        if frequency_list == readout_freq and calibration_factor_list == readout_calfac:
             log.info("Verification successfull")
         else:
             log.error("Verification unsuccessfull")
-        # self.instrument.sensor_data_clear(self.table_id)
+
 
     def shutdown(self):
         pass
 
 
-console_log(log)
+#console_log(log)
 app = ManagedConsole(procedure_class=WritePowerSensorCalibrationTable)
 sys.exit(app.exec())
