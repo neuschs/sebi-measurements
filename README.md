@@ -1,6 +1,5 @@
 # sebi-measurements
 
-
 ## tools/advantest_r3265a_load_basic_file.py
 Saves the given BASIC program to the Advantest R3265A/R3271A See Controller Function OPERATION MANUAL
 
@@ -9,3 +8,7 @@ Writes the given sensor data to the HP437B power meter. Example files can be see
 
 ## procedures/hp8720a_validate_output_power.py
 Needs a HP 8720A and a HP 437B and this will sweep the frequency of the VNA and measure the output power.
+
+## tools/advantest_r3265a_picture_splash.py
+Hacky python script that will resize a picture, color it monochrome and then write it via 'GPOINT' instructions to the
+Advantest R3265A.
