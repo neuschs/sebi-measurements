@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<VerificationConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RootPath />
+  <VerificationStandards>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\DUTs\attenuator_feemale_open.sdatb</Measurement>
+      <Reference>Kirkby\VerificationAttenuator_Female_Unterminated_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports />
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\DUTs\attenuator_male_open.sdatb</Measurement>
+      <Reference>Kirkby\VerificationAttenuator_Male_Unterminated_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports />
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\DUTs\attenuator.sdatb</Measurement>
+      <Reference>Kirkby\VerificationAttenuator_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports />
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\loads.sdatb</Measurement>
+      <Reference>Kirkby\Female_Load_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>1</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\loads.sdatb</Measurement>
+      <Reference>Kirkby\Male_Load_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>2</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\opens.sdatb</Measurement>
+      <Reference>Kirkby\Female_Open_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>1</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\opens.sdatb</Measurement>
+      <Reference>Kirkby\Male_Open_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>2</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\shorts.sdatb</Measurement>
+      <Reference>Kirkby\Female_Short_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>1</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\shorts.sdatb</Measurement>
+      <Reference>Kirkby\Male_Short_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports>2</Ports>
+    </VerificationStandard>
+    <VerificationStandard>
+      <Measurement>SOLT_02_out\CalStandards\thru.sdatb</Measurement>
+      <Reference>IdealThru50Ohm.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports />
+    </VerificationStandard>
+  </VerificationStandards>
+</VerificationConfig>

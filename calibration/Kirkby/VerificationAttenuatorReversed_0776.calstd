@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DatabasedStandard2OfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>Verification Attenuator Reversed</Identification>
+  <IdNumber>54d6670b-2b2e-4867-a18e-1fd8cc788972</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments>Kirkby Microwave 85033 SMA calibration kit, S/N 0776</Comments>
+  <DataPath>data\attenuator-0776-reversed.sdatb</DataPath>
+</DatabasedStandard2OfUncNumber>

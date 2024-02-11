@@ -1,0 +1,187 @@
+{
+  "label": "Kirkby0667",
+  "serial_number": "0776",
+  "description": "Kirkby Microwave 85033 SMA calibration kit, S/N 0776",
+  "standards": [
+    {
+      "id": 1,
+      "label": "Male Short",
+      "type": "short",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 57.780592e-12,
+        "z0": 49.159473,
+        "loss": 1447.410453
+      },
+      "load_type": "",
+      "coefficients": {}
+    },
+    {
+      "id": 2,
+      "label": "Fem Short",
+      "type": "short",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 42.923527e-12,
+        "z0": 50.397405,
+        "loss": 2874.303490
+      },
+      "load_type": "",
+      "coefficients": {}
+    },
+    {
+      "id": 3,
+      "label": "Male Open",
+      "type": "open",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 55.1e-12,
+        "z0": 49.751467,
+        "loss": 5745.123592
+      },
+      "load_type": "",
+      "coefficients": {
+        "cl0": 54.096474,
+        "cl1": -2660.584528,
+        "cl2": -902.992691,
+        "cl3": 109.147611
+      }
+    },
+    {
+      "id": 4,
+      "label": "Fem Open",
+      "type": "open",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 39.10e-12,
+        "z0": 48.0,
+        "loss": 5781.120201
+      },
+      "load_type": "",
+      "coefficients": {
+        "cl0": 24.789018,
+        "cl1": -4555.487251,
+        "cl2": 4387.538345,
+        "cl3": -357.265300
+      }
+    },
+    {
+      "id": 5,
+      "label": "Fem Load",
+      "type": "load",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 41.863655e-12,
+        "z0": 49.736776,
+        "loss": 657.707468
+      },
+      "load_type": "fixed",
+      "coefficients": {}
+    },
+    {
+      "id": 6,
+      "label": "Male Load",
+      "type": "load",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 96.090333e-12,
+        "z0": 49.755131,
+        "loss": 0.000000
+      },
+      "load_type": "fixed",
+      "coefficients": {}
+    },
+    {
+      "id": 7,
+      "label": "Male Thru",
+      "type": "thru",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 77.935e-12,
+        "z0": 50,
+        "loss": 3000
+      },
+      "load_type": "",
+      "coefficients": {}
+    },
+    {
+      "id": 8,
+      "label": "Fem Thru",
+      "type": "thru",
+      "medium": "coax",
+      "min_frequency": 0e9,
+      "max_frequency": 7e9,
+      "offset": {
+        "delay": 42.455e-12,
+        "z0": 50,
+        "loss": 3000
+      },
+      "load_type": "",
+      "coefficients": {}
+    }
+  ],
+  "class_assignments": {
+    "S11A": {
+      "assignments": [3, 4],
+      "label": "Opens"
+    },
+    "S11B": {
+      "assignments": [1, 2],
+      "label": "Shorts"
+    },
+    "S11C": {
+      "assignments": [5, 6],
+      "label": "Loads"
+    },
+    "S22A": {
+      "assignments": [3, 4],
+      "label": "Opens"
+    },
+    "S22B": {
+      "assignments": [1, 2],
+      "label": "Shorts"
+    },
+    "S22C": {
+      "assignments": [5, 6],
+      "label": "Loads"
+    },
+    "Forward Transmission": {
+      "assignments": [7, 8],
+      "label": "Thrus"
+    },
+    "Reverse Transmission": {
+      "assignments": [7, 8],
+      "label": "Thrus"
+    },
+    "Forward Match": {
+      "assignments": [7, 8],
+      "label": "Thrus"
+    },
+    "Reverse Match": {
+      "assignments": [7, 8],
+      "label": "Thrus"
+    },
+    "Response": {
+      "assignments": [1, 2, 3, 4, 7, 8],
+      "label": "Response"
+    },
+    "Response and Isolation": {
+      "assignments": [1, 2, 3, 4, 7, 8],
+      "label": "Response"
+    }
+  }
+}
