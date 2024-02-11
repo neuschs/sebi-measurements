@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<AgilentModelStandardOfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>Kirkby Male Load Agilent Model</Identification>
+  <IdNumber>88ad34c4-3fd5-4202-bebd-991c6434671a</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments>Kirkby Microwave 85033 SMA calibration kit, S/N 0776</Comments>
+  <Type>Load</Type>
+  <OffsetZ0>
+    <Value>49.755131</Value>
+    <Dependencies />
+  </OffsetZ0>
+  <OffsetDelay>
+    <Value>9.6090332999999993E-11</Value>
+    <Dependencies />
+  </OffsetDelay>
+  <OffsetLoss>
+    <Value>0</Value>
+    <Dependencies />
+  </OffsetLoss>
+  <P0>
+    <Value>0</Value>
+    <Dependencies />
+  </P0>
+  <P1>
+    <Value>0</Value>
+    <Dependencies />
+  </P1>
+  <P2>
+    <Value>0</Value>
+    <Dependencies />
+  </P2>
+  <P3>
+    <Value>0</Value>
+    <Dependencies />
+  </P3>
+  <Media>Coax</Media>
+  <CutoffFrequency>0</CutoffFrequency>
+  <HeightWidthRatio>0</HeightWidthRatio>
+  <ElectricalSpecifications />
+</AgilentModelStandardOfUncNumber>

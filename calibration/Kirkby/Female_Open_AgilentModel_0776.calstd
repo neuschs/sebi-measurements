@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<AgilentModelStandardOfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>Kirkby Female Open Agilent Model</Identification>
+  <IdNumber>7bd439ce-61b0-4d7a-9ef8-5ef8f7cae8da</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments>Kirkby Microwave 85033 SMA calibration kit, S/N 0776</Comments>
+  <Type>Open</Type>
+  <OffsetZ0>
+    <Value>48</Value>
+    <Dependencies />
+  </OffsetZ0>
+  <OffsetDelay>
+    <Value>3.91E-11</Value>
+    <Dependencies />
+  </OffsetDelay>
+  <OffsetLoss>
+    <Value>5781120201</Value>
+    <Dependencies />
+  </OffsetLoss>
+  <P0>
+    <Value>2.4789018E-14</Value>
+    <Dependencies />
+  </P0>
+  <P1>
+    <Value>-4.555487251E-24</Value>
+    <Dependencies />
+  </P1>
+  <P2>
+    <Value>4.387538345E-33</Value>
+    <Dependencies />
+  </P2>
+  <P3>
+    <Value>-3.5726530000000002E-43</Value>
+    <Dependencies />
+  </P3>
+  <Media>Coax</Media>
+  <CutoffFrequency>0</CutoffFrequency>
+  <HeightWidthRatio>0</HeightWidthRatio>
+  <ElectricalSpecifications />
+  <ElectricalSpecificationsHighReflect />
+</AgilentModelStandardOfUncNumber>

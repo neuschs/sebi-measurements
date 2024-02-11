@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CalibrationConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CalibrationType>OnePort</CalibrationType>
+  <Ports>
+    <Port>1</Port>
+    <Port>2</Port>
+  </Ports>
+  <PortImpedances>
+    <PortZr>
+      <Real>
+        <Value>50</Value>
+      </Real>
+      <Imag>
+        <Value>0</Value>
+      </Imag>
+    </PortZr>
+    <PortZr>
+      <Real>
+        <Value>50</Value>
+      </Real>
+      <Imag>
+        <Value>0</Value>
+      </Imag>
+    </PortZr>
+  </PortImpedances>
+  <RootPath />
+  <MeasurementJournalPath>Journal_01.vnalog</MeasurementJournalPath>
+  <CalibrationStandards>
+    <CalibrationStandard>
+      <Description>Reflection 1</Description>
+      <Measurement>Measurements_01\CalStandards\loads.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Female_Load_0776.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 1</Description>
+      <Measurement>Measurements_01\CalStandards\opens.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Female_Open_0776.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 1</Description>
+      <Measurement>Measurements_01\CalStandards\shorts.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Female_Short_0776.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 2</Description>
+      <Measurement>Measurements_01\CalStandards\loads.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Male_Load_0776.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 2</Description>
+      <Measurement>Measurements_01\CalStandards\opens.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Male_Open_0776.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 2</Description>
+      <Measurement>Measurements_01\CalStandards\shorts.sdatb</Measurement>
+      <Definition>UserStandards\Kirkby\Male_Short_0776.calstd</Definition>
+    </CalibrationStandard>
+  </CalibrationStandards>
+</CalibrationConfig>

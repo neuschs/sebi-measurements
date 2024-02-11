@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DatabasedStandard2OfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>Male Load 0776</Identification>
+  <IdNumber>7ffb99c7-5e85-4dec-aadb-7c6e38ae4d4d</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments />
+  <DataPath>data\male-load-0776.sdatb</DataPath>
+</DatabasedStandard2OfUncNumber>

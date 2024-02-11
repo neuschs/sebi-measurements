@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DatabasedStandard2OfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>Male Short 0776</Identification>
+  <IdNumber>2891387d-0d04-4238-8777-bfc5e2617e94</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments />
+  <DataPath>data\male-short-0776.sdatb</DataPath>
+</DatabasedStandard2OfUncNumber>
