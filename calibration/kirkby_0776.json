@@ -13,7 +13,7 @@
       "offset": {
         "delay": 57.780592e-12,
         "z0": 49.159473,
-        "loss": 1447.410453
+        "loss": 1447410453
       },
       "load_type": "",
       "coefficients": {}
@@ -28,7 +28,7 @@
       "offset": {
         "delay": 42.923527e-12,
         "z0": 50.397405,
-        "loss": 2874.303490
+        "loss": 2874303490
       },
       "load_type": "",
       "coefficients": {}
@@ -43,7 +43,7 @@
       "offset": {
         "delay": 55.1e-12,
         "z0": 49.751467,
-        "loss": 5745.123592
+        "loss": 5745123592
       },
       "load_type": "",
       "coefficients": {
@@ -63,7 +63,7 @@
       "offset": {
         "delay": 39.10e-12,
         "z0": 48.0,
-        "loss": 5781.120201
+        "loss": 5781120201
       },
       "load_type": "",
       "coefficients": {
@@ -83,7 +83,7 @@
       "offset": {
         "delay": 41.863655e-12,
         "z0": 49.736776,
-        "loss": 657.707468
+        "loss": 657707468
       },
       "load_type": "fixed",
       "coefficients": {}
@@ -113,7 +113,7 @@
       "offset": {
         "delay": 77.935e-12,
         "z0": 50,
-        "loss": 3000
+        "loss": 3000000000
       },
       "load_type": "",
       "coefficients": {}
@@ -128,7 +128,7 @@
       "offset": {
         "delay": 42.455e-12,
         "z0": 50,
-        "loss": 3000
+        "loss": 3000000000
       },
       "load_type": "",
       "coefficients": {}
@@ -159,29 +159,29 @@
       "assignments": [5, 6],
       "label": "Loads"
     },
-    "Forward Transmission": {
+    "FWDT": {
       "assignments": [7, 8],
       "label": "Thrus"
     },
-    "Reverse Transmission": {
+    "REVT": {
       "assignments": [7, 8],
       "label": "Thrus"
     },
-    "Forward Match": {
+    "FWDM": {
       "assignments": [7, 8],
       "label": "Thrus"
     },
-    "Reverse Match": {
+    "REVM": {
       "assignments": [7, 8],
       "label": "Thrus"
     },
-    "Response": {
+    "RESP": {
       "assignments": [1, 2, 3, 4, 7, 8],
       "label": "Response"
     },
-    "Response and Isolation": {
+    "RESI": {
       "assignments": [1, 2, 3, 4, 7, 8],
-      "label": "Response"
+      "label": "Resp Isol"
     }
   }
 }

@@ -12,3 +12,8 @@ Needs a HP 8720A and a HP 437B and this will sweep the frequency of the VNA and 
 ## tools/advantest_r3265a_picture_splash.py
 Hacky python script that will resize a picture, color it monochrome and then write it via 'GPOINT' instructions to the
 Advantest R3265A.
+
+## tools/load_calkit_hp8720a.py
+Store a calibration kit defined by the user into a HP 8720A VNA.
+Very crude asserts and nearly no error checking. But works with the sample file in 
+calibration/kirkby_0776.json
