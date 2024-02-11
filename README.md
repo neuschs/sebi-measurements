@@ -17,3 +17,5 @@ Advantest R3265A.
 Store a calibration kit defined by the user into a HP 8720A VNA.
 Very crude asserts and nearly no error checking. But works with the sample file in 
 calibration/kirkby_0776.json
+You have to change the path to the used json manually and the VISA communictation string too.
+Maybe I'll extend it in the future.

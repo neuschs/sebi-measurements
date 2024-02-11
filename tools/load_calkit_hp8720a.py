@@ -68,7 +68,6 @@ def load_standard(adapter: Adapter, standard: Standard):
     adapter.write(f"MAXF {standard.max_frequency}")
     assert (standard.medium == "coax") or (standard.medium == "wave")
     adapter.write(str(standard.medium).upper())
-    print(standard.label)
     assert 1 <= len(standard.label) <= 10
     adapter.write(f"LABS \"{standard.label}\"")
 
