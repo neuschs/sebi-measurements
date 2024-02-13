@@ -122,4 +122,5 @@ if __name__ == "__main__":
 
     adapter.write(f"LABK \"{cal_kit.label}\"")
     adapter.write("KITD")
+    adapter.write("SAVEUSEK")
     adapter.write("ENTO")
