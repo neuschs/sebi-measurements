@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Cable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>SUCOFLEX104_1M</Identification>
+  <IdNumber>35c557e3-56b3-46b2-86b9-ab597728db4d</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+    </Real>
+    <Imag>
+      <Value>0</Value>
+    </Imag>
+  </Zr>
+  <Comments>Characterized with some narly bends.</Comments>
+  <ElectricalSpecifications>
+    <CableElectricalSpec>
+      <Frequency>130000000</Frequency>
+      <StabilityReflection>-46</StabilityReflection>
+      <StabilityTransmissionMag>0.01</StabilityTransmissionMag>
+      <StabilityTransmissionPhase>0.5</StabilityTransmissionPhase>
+      <StabilitySymmetryMag>0</StabilitySymmetryMag>
+      <StabilitySymmetryPhase>0</StabilitySymmetryPhase>
+    </CableElectricalSpec>
+    <CableElectricalSpec>
+      <Frequency>4000000000</Frequency>
+      <StabilityReflection>-43</StabilityReflection>
+      <StabilityTransmissionMag>0.02</StabilityTransmissionMag>
+      <StabilityTransmissionPhase>12</StabilityTransmissionPhase>
+      <StabilitySymmetryMag>0</StabilitySymmetryMag>
+      <StabilitySymmetryPhase>0</StabilitySymmetryPhase>
+    </CableElectricalSpec>
+    <CableElectricalSpec>
+      <Frequency>7000000000</Frequency>
+      <StabilityReflection>-30</StabilityReflection>
+      <StabilityTransmissionMag>0.06872</StabilityTransmissionMag>
+      <StabilityTransmissionPhase>21</StabilityTransmissionPhase>
+      <StabilitySymmetryMag>0</StabilitySymmetryMag>
+      <StabilitySymmetryPhase>0</StabilitySymmetryPhase>
+    </CableElectricalSpec>
+  </ElectricalSpecifications>
+</Cable>
