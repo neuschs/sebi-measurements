@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ErrorCorrectionConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RootPath />
+  <MeasurementJournalPath>Journal_03.vnalog</MeasurementJournalPath>
+  <CalibrationPath>calcfg_03.calb</CalibrationPath>
+  <RawMeasurementsPath>Measurements_03</RawMeasurementsPath>
+  <ErrorCorrMeasurementsPath>calcfg_03_out</ErrorCorrMeasurementsPath>
+  <WaveParameters>true</WaveParameters>
+  <WithoutUncertainties>false</WithoutUncertainties>
+  <Debug>false</Debug>
+</ErrorCorrectionConfig>
