@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<AgilentModelStandardOfUncNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification />
+  <IdNumber>9a542265-5078-40f7-bb50-c655883e0e14</IdNumber>
+  <Zr>
+    <Real>
+      <Value>50</Value>
+      <Dependencies />
+    </Real>
+    <Imag>
+      <Value>0</Value>
+      <Dependencies />
+    </Imag>
+  </Zr>
+  <Comments />
+  <Type>Delay_Thru</Type>
+  <OffsetZ0>
+    <Value>50</Value>
+    <Dependencies />
+  </OffsetZ0>
+  <OffsetDelay>
+    <Value>5.676E-11</Value>
+    <Dependencies />
+  </OffsetDelay>
+  <OffsetLoss>
+    <Value>3000000000</Value>
+    <Dependencies />
+  </OffsetLoss>
+  <P0>
+    <Value>0</Value>
+    <Dependencies />
+  </P0>
+  <P1>
+    <Value>0</Value>
+    <Dependencies />
+  </P1>
+  <P2>
+    <Value>0</Value>
+    <Dependencies />
+  </P2>
+  <P3>
+    <Value>0</Value>
+    <Dependencies />
+  </P3>
+  <Media>Coax</Media>
+  <CutoffFrequency>0</CutoffFrequency>
+  <HeightWidthRatio>0</HeightWidthRatio>
+  <ElectricalSpecificationsDelayThru>
+    <AgilentModelElectricalSpecDelayThru>
+      <Frequency>130000000</Frequency>
+      <ReturnLoss>-46</ReturnLoss>
+      <MagDeviation>0.01</MagDeviation>
+      <PhaseDeviation>1</PhaseDeviation>
+    </AgilentModelElectricalSpecDelayThru>
+    <AgilentModelElectricalSpecDelayThru>
+      <Frequency>4000000000</Frequency>
+      <ReturnLoss>-46</ReturnLoss>
+      <MagDeviation>0.03</MagDeviation>
+      <PhaseDeviation>3</PhaseDeviation>
+    </AgilentModelElectricalSpecDelayThru>
+    <AgilentModelElectricalSpecDelayThru>
+      <Frequency>7000000000</Frequency>
+      <ReturnLoss>-22</ReturnLoss>
+      <MagDeviation>0.02</MagDeviation>
+      <PhaseDeviation>6</PhaseDeviation>
+    </AgilentModelElectricalSpecDelayThru>
+  </ElectricalSpecificationsDelayThru>
+</AgilentModelStandardOfUncNumber>
