@@ -45,5 +45,18 @@
   <Media>Coax</Media>
   <CutoffFrequency>0</CutoffFrequency>
   <HeightWidthRatio>0</HeightWidthRatio>
-  <ElectricalSpecifications />
+  <ElectricalSpecificationsDelayThru>
+    <AgilentModelElectricalSpecDelayThru>
+      <Frequency>1</Frequency>
+      <ReturnLoss>0</ReturnLoss>
+      <MagDeviation>0</MagDeviation>
+      <PhaseDeviation>0</PhaseDeviation>
+    </AgilentModelElectricalSpecDelayThru>
+    <AgilentModelElectricalSpecDelayThru>
+      <Frequency>7000000000</Frequency>
+      <ReturnLoss>0</ReturnLoss>
+      <MagDeviation>0</MagDeviation>
+      <PhaseDeviation>0</PhaseDeviation>
+    </AgilentModelElectricalSpecDelayThru>
+  </ElectricalSpecificationsDelayThru>
 </AgilentModelStandardOfUncNumber>
