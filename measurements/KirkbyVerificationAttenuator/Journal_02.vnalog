@@ -16,6 +16,10 @@
       <Connector>3.5mm</Connector>
     </CableConnectorItem>
   </CableConnectorTable>
+  <UserCommentJournalItem>
+    <TimeStamp>2024-02-11T15:28:05</TimeStamp>
+    <Comment>Measurement with cable attached to port 1\nCable is just a placeholder and not the actually used 20cm 3.5mm cable RG402</Comment>
+  </UserCommentJournalItem>
   <VnaSettingsJournalItem>
     <TimeStamp>2024-02-11T16:33:27.5153673+01:00</TimeStamp>
     <VnaDevice>HP8720A_NoiseTest_100Hz_w7ghz_drift</VnaDevice>
