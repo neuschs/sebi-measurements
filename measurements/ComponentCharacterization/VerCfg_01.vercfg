@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<VerificationConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RootPath />
+  <VerificationStandards>
+    <VerificationStandard>
+      <Measurement>SOLT_01_out\VerStandards\KirkbyAttenuator.sdatb</Measurement>
+      <Reference>Kirkby\VerificationAttenuator_0776.calstd</Reference>
+      <Interpolation>true</Interpolation>
+      <Ports />
+    </VerificationStandard>
+  </VerificationStandards>
+</VerificationConfig>
