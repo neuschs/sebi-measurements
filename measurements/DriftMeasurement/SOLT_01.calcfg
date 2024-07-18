@@ -29,32 +29,32 @@
     <CalibrationStandard>
       <Description>Reflection 1</Description>
       <Measurement>Measurements_01\CalStandards\loads.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Male_Load_0776.calstd</Definition>
+      <Definition>Kirkby\Male_Load_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Reflection 1</Description>
       <Measurement>Measurements_01\CalStandards\opens.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Male_Open_0776.calstd</Definition>
+      <Definition>Kirkby\Male_Open_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Reflection 1</Description>
       <Measurement>Measurements_01\CalStandards\shorts.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Male_Short_0776.calstd</Definition>
+      <Definition>Kirkby\Male_Short_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Reflection 2</Description>
       <Measurement>Measurements_01\CalStandards\loads.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Female_Load_0776.calstd</Definition>
+      <Definition>Kirkby\Female_Load_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Reflection 2</Description>
       <Measurement>Measurements_01\CalStandards\opens.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Female_Open_0776.calstd</Definition>
+      <Definition>Kirkby\Female_Open_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Reflection 2</Description>
       <Measurement>Measurements_01\CalStandards\shorts.sdatb</Measurement>
-      <Definition>UserStandards\Kirkby\Female_Short_0776.calstd</Definition>
+      <Definition>Kirkby\Female_Short_0776.calstd</Definition>
     </CalibrationStandard>
     <CalibrationStandard>
       <Description>Transmission 1,2</Description>

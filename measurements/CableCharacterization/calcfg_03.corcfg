@@ -6,6 +6,6 @@
   <RawMeasurementsPath>Measurements_03</RawMeasurementsPath>
   <ErrorCorrMeasurementsPath>calcfg_03_out</ErrorCorrMeasurementsPath>
   <WaveParameters>true</WaveParameters>
-  <WithoutUncertainties>false</WithoutUncertainties>
+  <WithoutUncertainties>true</WithoutUncertainties>
   <Debug>false</Debug>
 </ErrorCorrectionConfig>
